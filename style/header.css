@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 
 .caixa{
@@ -26,8 +25,8 @@
 
 .lista-menu{
     display: none;
-    position: absolute;
-    top:100%;
+    position:absolute;
+    top: 100%;
     width: 60vw;
 }
 
@@ -38,20 +37,12 @@
 .lista-menu__titulo,
 .lista-menu__item{
     padding: 1em;
-    background-color: antiquewhite;
+    background-color: azure;
 }
 
 .lista-menu__titulo{
-    color:brown;
+    color: brown;
     font-weight: bold;
 }
 
-.lista-menu__link{
-    color: blueviolet;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.caixa__botao{
-    display: none;
-}
+.lista-menu__link{}
