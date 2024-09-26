@@ -1,26 +1,24 @@
 @import url("rest.css");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("header.css");
 @import url("banner.css");
+@import url("carrosel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("rodape.css");
+
 :root {
-    --Roxo-claro: #C77DFF;
-    --azul-claro: #0582CA;
-    --azul-escuro: #10002B;
-    --violeta: #5A189A;
-    --azul-ciano: #00A6FB;
-    --azul: #00A6FB;
+    --cor-fundo: #EBECEE;
     --branco: #ffffff;
-    --verde-claro: #9EF01A;
-    --verde: #38B000;
+    --laranja: #EB9B00;
+    --azul: #002F52;
     --preto: #000000;
-    --texto-corpo: "Sedan SC", serif;
-    --texto-titulo: "Poetsen One", sans-serif;
+    --fonte-principal : "Poppins", sans-serif;
 }
 
 body {
-    background-color: var(--Roxo-claro);
-    font-family: var(--texto-titulo);
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
 }
